@@ -1,0 +1,43 @@
+// main sass stylesheet. really won't be using partials or compass yet.
+
+//actually i don't even know why i...nvm
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'KrabbyPatty';
+  src: url('font/krabbypatty.ttf') format('truetype'); /* safari, android, ios */
+  src: url('font/krabbypatty.woff') format('woff');
+}
+
+#content {
+  margin: 0 auto;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  background-color: #cb9c0a;
+
+  text-align: center;
+  display: table;
+
+
+  p {
+    font-family: 'KrabbyPatty';
+    color: #fff;
+    font-size: 6em;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+
+  }
+
+  input {
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+  }
+}

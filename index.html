@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spongebob Timecard Generator</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body ng-app="sbGen" ng-controller="InputCtrl">
+    <div id="content" >
+
+
+      <p id='sb-text'>{{ inputValue }}</p>
+    </div>
+    <input type="text" ng-model="inputValue" id="input-text">
+    <button id='save-image'>Save Timecard</button>
+
+  </body>
+</html>
